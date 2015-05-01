@@ -1,0 +1,24 @@
+{
+  "name": "basic-chat",
+  "version": "1.0.0",
+  "description": "A basic chat made with io.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jtrezza/basic-chat.git"
+  },
+  "keywords": [
+    "socket",
+    "io.js",
+    "chat"
+  ],
+  "author": "Jose Trezza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtrezza/basic-chat/issues"
+  },
+  "homepage": "https://github.com/jtrezza/basic-chat"
+}
