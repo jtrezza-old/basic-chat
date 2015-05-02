@@ -4,7 +4,8 @@
   "description": "A basic chat made with io.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle-js": "browserify resources/js/chat.js -o public/js/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/jtrezza/basic-chat",
   "dependencies": {
+    "doc-ready": "^1.0.3",
     "express": "^4.12.3",
     "swig": "^1.4.2"
   }

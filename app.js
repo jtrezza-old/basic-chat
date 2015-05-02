@@ -8,6 +8,8 @@ swig.setDefaults({ cache: false });
 
 const app = express();
 app.engine('html', swig.renderFile);
+//Serving static files
+app.use(express.static('public'));
 //Setting the routes of the app
 routes(app);
 
