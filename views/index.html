@@ -12,7 +12,7 @@
 <h1 class="text-center">Basic chat with io.js and socket.io</h1>
 <div class="row">
     <div class="col-lg-5 col-md-5 col-lg-offset-1 col-md-offset-1">
-        <form id="formMessage">
+        <form id="formMessage" onsubmit="return false;">
             <div class="form-group">
                 <label for="txtMessage">Message</label>
                 <input type="text" class="form-control" id="txtMessage" placeholder="Write your message">
@@ -21,9 +21,9 @@
         </form>
     </div>
     <div class="col-lg-5 col-md-5">
-        <div id="messages">
+        <ul id="messages">
 
-        </div>
+        </ul>
     </div>
 </div>
 </body>
