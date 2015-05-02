@@ -11,7 +11,7 @@ const routes = function(app)
     });
 
     app.use(function(req, res, next){
-        res.status(404).end();
+        res.status(404).send('<h1>File not found</h1>');
     });
 };
 

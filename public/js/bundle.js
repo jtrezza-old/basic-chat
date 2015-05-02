@@ -161,6 +161,7 @@ if ( typeof define === 'function' && define.amd ) {
 const docReady = require('doc-ready');
 
 docReady(function(){
+    var socket = io();
     console.log("I'm loaded!");
 });
 },{"doc-ready":1}]},{},[3]);
